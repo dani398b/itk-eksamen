@@ -1,0 +1,64 @@
+input[type=button], input[type=submit], input[type=reset] {
+  background-color: black;
+  color: white;
+  padding: 16px 32px;
+  text-decoration: none;
+  margin: 4px 2px;
+}
+
+body {
+	font-family: "Arial";	
+}
+
+.forsideIndtastning {
+	background-color: #4CAF50;
+}
+
+.forsideForm {
+	font-family: "Arial";
+}
+
+.underBruger {
+	background-color: #4CAF50;
+}
+
+.navigation {
+	background-color: green;
+}
+
+.tid {
+	background-color: darkgreen;
+	color: white;
+}
+
+table {
+	border: 5px;
+}
+
+a:link {
+	padding: 5px;
+	background-color: darkgreen;
+	text-decoration: none;
+	color: lightgreen;
+}
+
+a:visited {
+	padding: 5px;
+	background-color: darkgreen;
+	text-decoration: none;
+	color: lightgreen;
+}
+
+a:hover {
+	padding: 5px;
+	background-color: lightgreen;
+	text-decoration: none;
+	color: darkgreen;
+}
+
+a:active {
+	padding: 5px;
+	background-color: lightgreen;
+	text-decoration: none;
+	color: darkgreen;
+}

@@ -1,0 +1,9 @@
+1. Et online økonomispil
+
+2. Et online krigsspil
+
+3. Et online aktiespil
+- grafisk afbildning af aktiekurser
+- algoritme til bestemmelse af individuelle eller altomfattende kurser.
+
+4. Et online gårdspil
