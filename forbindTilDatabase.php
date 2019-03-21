@@ -365,7 +365,6 @@
 	}
 
     function visTrans($forbind){
-
         $sql = "SELECT goder.transaktioner.id as trans_id, bruger_id, navn, antal, bekostning, pris FROM goder.transaktioner, goder.goder WHERE goder.goder.id = goder.transaktioner.gods_id GROUP BY goder.transaktioner.id";
         $resultat = $forbind->query($sql);
 
@@ -387,7 +386,7 @@
     }
 
     function visGodsBil($gods_id){
-        $billede = "godsBil/".$gods_id.".jpg";
+        $billede = "godsBil/".$gods_id.".png";
         echo "<img src='".$billede."'>";
     }
 ?>

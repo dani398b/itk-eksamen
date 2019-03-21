@@ -1,4 +1,5 @@
 <?php 
+    echo "<head><link rel='icon' href='handelIkon.png'></head>";
     // Her beskriver 'tas' i 'tasBrugernavn' og 'tasAdgangskode', at det er den indtastede værdi.
     $navn = isset($_POST['tasBrugernavn']) ? $_POST['tasBrugernavn'] : $_SESSION['sesNavn'];
     $adgangskode = isset($_POST['tasAdgangskode']) ? $_POST['tasAdgangskode'] : $_SESSION['sesAdgangskode'];
